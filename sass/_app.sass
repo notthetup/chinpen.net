@@ -1,0 +1,144 @@
+*
+  box-sizing border-box
+
+body
+  @include transition-property(all)
+  @include transition-duration(1s)
+  font-family: $potano
+  font-size: 16px //12pt
+  line-height: 1.25 // 20px
+  color: $grey
+
+#container
+  margin: 0 auto
+  width: 480px
+  display: block
+
+h1
+  font-family: $bevan
+  text-shadow: 0 0 10px darken($grey, 25%)
+  filter: dropshadow(color=$grey, offx=1, offy=1)
+  color: #ffffff
+  font-size: 4em
+  text-align: center
+  margin: 20px 0 0 0
+
+span
+  display: inline-block
+  position: relative
+  letter-spacing: -1px
+  @include transition(all, 0.1s, ease-out)
+  &:hover
+    top: 3px
+
+h2
+  color: $grey
+  font-weight: lighter
+  font-size: 1.5em
+  text-align: center
+  margin: 0
+
+#pic
+  margin: 20px auto
+  height: 150px
+  width: 150px
+  img
+    border: 5px solid white
+    @include shade(1px, 5px, 2px, 2px, #c2c2c2)
+    box-shadow: 1px 5px 6px rgba(0,0,0,0.4)
+    @include transition(all, 0.2s, ease-out)
+    &:hover
+      @include turning(-5deg)
+      @include duration(0.3s)
+      box-shadow: 1px 4px 4px rgba(0,0,0,0.4)
+      -webkit-backface-visibility: hidden
+
+#socialpanel
+  width: 100%
+  ul#social
+    list-style: none
+    padding: 0
+    margin: 0
+    text-align: center
+    position: relative
+    li
+      display: inline-block
+      vertical-align: top
+      padding: 0
+      width: 60px
+      height: 60px
+      background-repeat: no-repeat
+      margin: 20px 5px
+      &:nth-child(1) a
+        background: url(../img/social.png) 0 0
+      &:nth-child(2) a
+        background: url(../img/social.png) -80px 0
+      &:nth-child(3) a
+        background: url(../img/social.png) -160px 0
+      &:nth-child(4) a
+        background: url(../img/social.png) -240px 0
+      &:nth-child(5) a
+        background: url(../img/social.png) -320px 0
+      &:nth-child(6) a
+        background: url(../img/social.png) -400px 0
+      &:nth-child(7) a
+        background: url(../img/social.png) 0px -100px
+      &:nth-child(8) a
+        background: url(../img/social.png) -80px -100px
+      &:nth-child(9) a
+        background: url(../img/social.png) -160px -100px
+      &:nth-child(10) a
+        background: url(../img/social.png) -240px -100px
+      &:nth-child(11) a
+        background: url(../img/social.png) -320px -100px
+      &:nth-child(12) a
+        background: url(../img/social.png) -400px -100px
+      a
+        height: 60px
+        width: 60px
+        display: block
+        background-repeat: no-repeat
+        text-decoration: none
+        color: gray
+        text-align: center
+        &:hover span
+          display: block
+        span
+          display: none
+          position: absolute
+          text-align: center
+          width: 60px
+          color: $red
+          margin: -20px 0 0 0
+
+#info
+  margin: 0 0 30px 0
+#activities, #identity
+  padding: 0
+  margin: 0 0 20px 0
+  font-size: 1.05em
+  li
+    display: inline
+    margin: 5px 0
+    &:last-child:after
+      content: ""
+    a
+      display: inline-block
+      padding: 5px
+      @include transition-property(background-color)
+      @include transition-duration(0.2s)
+      &:link, &:visited
+        color: $grey
+        text-decoration: none
+      &:hover, &:active
+        color: $red
+        @include border-radius(5px)
+
+#activities li:after
+  content: "  ||  "
+
+#identity li
+  margin: 4px
+  &:after
+    content: "  &&  "
+    padding: 0 9px

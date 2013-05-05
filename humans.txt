@@ -1,0 +1,49 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Chinmay
+  Site: http://chinpen.net
+  Twitter: @ntt
+  Location: Singapore
+
+/* THANKS */
+  Sayanee
+  Site: http://sayan.ee
+  Twitter: @sayanee_
+  Location: Singapore
+
+
+/* TECHNOLOGY */
+  Standards: HTML5, CSS3, HTML5 Boilerplate 4.0, SASS,
+  Components: RequireJS, jQuery, Lettering.js
+  Software: SublimeText, Github
+  Versioning: Git
+  Social Media icons: http://icons.mysitemyway.com/category/black-inlay-crystal-clear-bubble-icons/
+
+
+
+                               -o/-
+                               +oo//-
+                              :ooo+//:
+                             -ooooo///-
+                             /oooooo//:
+                            :ooooooo+//-
+                           -+oooooooo///-
+           -://////////////+oooooooooo++////////////::
+            :+ooooooooooooooooooooooooooooooooooooo+:::-
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-
+                     -:+ooooooooooooooooo+:://////:--
+                       /ooooooooooooooooo+//////:-
+                      -ooooooooooooooooooo////-
+                      /ooooooooo+oooooooooo//:
+                     :ooooooo+/::/+oooooooo+//-
+                    -oooooo/::///////+oooooo///-
+                    /ooo+::://////:---:/+oooo//:
+                   -o+/::///////:-      -:/+o+//-
+                   :-:///////:-            -:/://
+                     -////:-                 --//:
+                       --                       -:
