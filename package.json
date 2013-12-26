@@ -1,0 +1,28 @@
+{
+	"name": "chinpen.net",
+	"preferGlobal": true,
+	"version": "0.0.1",
+	"author": "Chinmay <chinmay.pendharkar@sonoport.com>",
+	"description": "chinpen.net landing page",
+	"keywords": [
+	"website"
+	],
+	"main": "./",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/notthetup/chinpen.net"
+	},
+	"dependencies" : {
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-jshint": "~0.7.0",
+		"grunt-contrib-cssmin" : "~0.7.0",
+		"grunt-contrib-watch" : " ~0.5.0",
+		"grunt-contrib-connect" : "~0.2.0"
+	},
+	"license": "Proprietary",
+	"engines": {
+		"node": ">=0.10"
+	}
+}

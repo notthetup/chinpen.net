@@ -5,7 +5,7 @@ require.config({
 	deps: ['main'],
 
 	paths: {
-		jQuery: '//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min',
+		jQuery: '//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min',
 		Lettering: 'lettering'
 	},
 
@@ -21,4 +21,4 @@ require.config({
 
 	waitSeconds: 20
 
-})
+});
